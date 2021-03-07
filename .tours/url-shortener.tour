@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Url Shortener",
+  "steps": [
+    {
+      "file": "package.json",
+      "description": "# Install dependencies\n\n>> npm install dotenv express mongoose shortid validator -S\n\n>> npm install @types/dotenv @types/express @types/mongoose @types/shortid @types/validator supertest @types/supertest nodemon -D",
+      "line": 35,
+      "selection": {
+        "start": {
+          "line": 23,
+          "character": 6
+        },
+        "end": {
+          "line": 23,
+          "character": 22
+        }
+      }
+    },
+    {
+      "file": "src/ApiApp.ts",
+      "description": "# Express application",
+      "line": 5
+    },
+    {
+      "file": "src/server.ts",
+      "description": "# Server endpoint",
+      "line": 1
+    },
+    {
+      "file": "package.json",
+      "description": "# Start server\n\n>> npm run start",
+      "line": 11
+    },
+    {
+      "file": "src/models/UrlModel.ts",
+      "description": "# UrlModel",
+      "line": 1
+    },
+    {
+      "file": "src/routers/ShortenerRoute.ts",
+      "description": "# Write testing code",
+      "line": 1
+    },
+    {
+      "file": "src/routers/ShortenerRoute.ts",
+      "description": "# Write production code",
+      "line": 1
+    },
+    {
+      "file": "src/controllers/ShortenerController.spec.ts",
+      "description": "# Write testing code",
+      "line": 1
+    },
+    {
+      "file": "src/controllers/ShortenerController.ts",
+      "description": "# Write production code",
+      "line": 1
+    }
+  ]
+}

@@ -2,6 +2,7 @@ module.exports = {
   roots: [
     "<rootDir>/src"
   ],
+  testEnvironment: "node",
   testMatch: [
     "**/__tests__/**/*.+(ts|tsx|js)",
     "**/?(*.)+(spec|test).+(ts|tsx|js)"
@@ -13,6 +14,7 @@ module.exports = {
     "**/*.{js,jsx,ts,tsx}",
     "!**/*.d.ts",
     "!**/node_modules/**",
+    "!**/{ApiApp,server}.ts"
   ],
   globals: {
     "ts-jest": {
